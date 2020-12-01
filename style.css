@@ -4,8 +4,9 @@ body {
     font-family:"Noto Sans JP";
 }
 :root{
-    --primary-color: #FCD34D;
-    --dark-gray: #374151;
+    --primary-color: #F9BB1E;
+    ;
+    --dark-gray: #6B7280;
 }
 /* containers */
 
@@ -14,6 +15,7 @@ body {
     padding-right: 1rem;
     text-align: center;
     margin: auto;
+    padding-bottom: 3rem;
 }
 
 
@@ -137,4 +139,8 @@ body {
 .footer .footer-header {
     font-size: 1rem;
     font-weight: bold;
+}
+
+.colorme {
+    color: var(--dark-gray);
 }
