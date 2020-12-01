@@ -67,7 +67,7 @@ body {
     color: white;
 }
 
-.nav-pills {
+.nav-pills {    
     text-align: right;
 }
 
@@ -110,6 +110,18 @@ body {
   text-align: center;
 }
 
+.footer {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
 
+.footer .link {
+    color: white;
+}
 
-
+.footer ul {
+    padding-inline: 0px;
+}
