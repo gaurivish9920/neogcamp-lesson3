@@ -5,6 +5,7 @@ body {
 }
 :root{
     --primary-color: #FCD34D;
+    --dark-gray: #374151;
 }
 /* containers */
 
@@ -69,3 +70,46 @@ body {
 .nav-pills {
     text-align: right;
 }
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display:block ;
+    margin: auto;
+
+}
+
+.hero .hero-heading {
+    color: var(--dark-gray);
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero .hero-heading .hero-inverted {
+    color: var(--primary-color);
+}
+
+.section {
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.section h3 {
+    text-align: center;
+}
+
+.section .section-offwhite {
+  background-color: bisque ;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+
