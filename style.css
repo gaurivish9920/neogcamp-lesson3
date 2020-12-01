@@ -12,6 +12,8 @@ body {
 .Container {
     padding-left: 1rem;
     padding-right: 1rem;
+    text-align: center;
+    margin: auto;
 }
 
 
@@ -20,6 +22,12 @@ body {
     margin: auto;
 
 
+}
+
+.spaceout {
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .link{
@@ -124,4 +132,9 @@ body {
 
 .footer ul {
     padding-inline: 0px;
+}
+
+.footer .footer-header {
+    font-size: 1rem;
+    font-weight: bold;
 }
